@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(170, 129, 156);
+    font-family: 'Inconsolata', monospace;
+}
+
+.header_div {
+    background-color: rgb(255, 255, 255);
+    color: red; 
+    font-weight: bold;
+}
+
+.header_div img {
+    width: 100px;
+}
+
+#webcamview {
+    color: rgb(170, 129, 156);
+    box-shadow: 5px 5px 18px white;
+}
+
+.main_div {
+    background: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid rgb(170, 129, 156);
+}
+
+#result {
+    border: 10px dotted; 
+    border-color: crimson; 
+    box-shadow: 5px 5px 18px rgb(48, 10, 110); 
+    height: 300px; 
+    width: 300px; 
+    margin-bottom: 15px;
+}
+
+#camera {
+    border: 10px dotted; 
+    border-color: crimson; 
+    box-shadow: 5px 5px 18px rgb(48, 10, 110); 
+    height: 300px; 
+    width: 300px; 
+    margin-bottom: 15px;
+}
+
+.footer_div {
+    margin-bottom: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.footer_div h4 {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+
+.footer_div img {
+    width: 70px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    background-color: rgb(170, 129, 156);
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+}
